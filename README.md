@@ -24,6 +24,12 @@ Or install it yourself as:
 $ gem install rspec_progress_extended
 ```
 
+To run your specs using the `rspec_progress_extended` formatter, run:
+
+```
+$ rspec --format RspecProgressExtended::Formatter
+```
+
 If you want to use `rspec_progress_extended` as your default formatter, simply
 put this option in your `.rspec` or `.rspec.local` file:
 
